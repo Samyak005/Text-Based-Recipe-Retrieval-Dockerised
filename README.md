@@ -1,9 +1,9 @@
 ## Details
-I indexed the dataset using APIs of ElasticSearch on recipe ingredients and made a web app with NodeJS as backend.
+I indexed the dataset using APIs of ElasticSearch on recipe ingredients and made a web app with NodeJS as backend.\
 Each user ingredient input returned a set of recipes containing that ingredient from the dataset. 
-Postman, a HTTP client was used to fire GET, POST, DELETE requests.
-After the implementation of ElasticSearch and NodeJS interface to run the search, I implemented the same on Docker. Objective was to make the code portable. As I began the dockerisation of ElasticSearch and NodeJS, the challenge of having two servers deployed on same docker was a key learning experience. I used the official NodeJS and Elastic docker containers(https://hub.docker.com/_/elasticsearch , https://hub.docker.com/_/node). 
-Also refer to Non-Dockerised version of the search [Text-Based-Recipe-Retrieval](https://github.com/Samyak005/Text-Based-Recipe-Retrieval).
+Postman, a HTTP client was used to fire GET, POST, DELETE requests.\
+After the implementation of ElasticSearch and NodeJS interface to run the search, I implemented the same on Docker. Objective was to make the code portable. As I began the dockerisation of ElasticSearch and NodeJS, the challenge of having two servers deployed on same docker was a key learning experience. I used the official NodeJS and Elastic docker containers([https://hub.docker.com/_/elasticsearch](https://hub.docker.com/_/elasticsearch) , [https://hub.docker.com/_/node](https://hub.docker.com/_/node)).\
+Also refer to Non-Dockerised version of the search Github Repo: [Text-Based-Recipe-Retrieval](https://github.com/Samyak005/Text-Based-Recipe-Retrieval).
 
 ## Requirements:
 Docker Desktop Application
